@@ -88,7 +88,8 @@ a:hover {
 
 .section{
 position:relative;
-  display:flex;
+  display:grid;
+	grid-template-columns: 30% 70%;
   top: auto !important;
   width:100%;
   align-items:center; 
@@ -294,7 +295,7 @@ a.arrow:hover {color: #FFC52F;}
     }
 }
 @media only screen and (max-width: 550px) {
-	.section { top: auto !important; }
+	.section { top: auto !important; display:flex !important; flex-flow:column wrap; }
   .explanation{float:none;margin:auto; text-align:center;}
   .explanation-right{float:none;margin:auto; text-align:center;}
   #phone{visibility:hidden; height: 0px; width:0px; padding:0;margin:0;}
