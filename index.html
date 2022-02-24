@@ -419,6 +419,24 @@ a.arrow:hover {color: #FFC52F;}
   <p style="justify-content:center; font-size:14px; display:flex; align-items:center; color:#222;"><span id="date"></span>
     <script>
       window.onload = function() {
+	      document.querySelectorAll('.collapse-click').forEach((elm) => {
+    elm.addEventListener('click', function(e) {
+       const parent = $(elm).parent().parent().find('.collapse-content'); 
+        if ($(elm).hasClass('fa-chevron-up')) { 
+            $(elm).removeClass('fa-chevron-up')
+                        $(elm).addClass('fa-chevron-down')
+                    $(parent).css("display", "block")
+
+
+        }
+        else  {
+            $(elm).removeClass('fa-chevron-down')
+            $(elm).addClass('fa-chevron-up')
+                    $(parent).css("display", "none")
+
+        }
+    });
+});
 document.getElementById('date').innerHTML = new Date().getFullYear(); 
       }
     </script> &nbsp; All Copyrights Reserved. <a href="https://twitter.com/damianogui">HelpUkraine</a> <a href="https://twitter.com/HelpUkraineETH"><i class="icon-twitter"></i></a>
