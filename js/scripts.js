@@ -42,6 +42,6 @@ function renderTransactions(data) {
             investments.append(listItem);
         });
 
-        document.getElementById('totalInvested').innerHTML = `&nbsp;${buyMap.total} ETH`
+        document.getElementById('totalInvested').innerHTML = `${buyMap.total} ETH`
     }
 }
