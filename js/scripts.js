@@ -10,7 +10,7 @@ window.onload = async function () {
     await fetchTokensInvested();
 };
 
-let buyMap = {total:0};
+let buyMap = {total:6};
 async function fetchTokensInvested() {
     const options = {
         method: "GET"
