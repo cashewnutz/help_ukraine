@@ -28,14 +28,14 @@ function renderTransactions(data) {
             var listItemText = document.createElement("p");
             var badge = document.createElement("span");
             badge.classList.add("badge");
-            badge.classList.add("bg-success");
+            badge.classList.add("bg-info");
             badge.classList.add("badge-pill");
 
             listItemText.classList.add("list-group-item-text");
             listItem.classList.add("list-group-item");
                 buyMap.total += parseFloat(swap.value);
                 listItemText.innerHTML = `<div style='display:flex;justify-content:space-between;align-items:center;'><span>Donated ${swap.value} ETH at ${new Date(swap.timestamp * 1000).toLocaleString()}</span><a href="https://etherscan.io/tx/${swap.hash}"><i class='fa fa-external-link'></i></a> </div> `;
-                badge.innerHTML = `BUY`;
+                badge.innerHTML = `Donation`;
                 listItem.append(listItemText);
                 listItem.append(badge);
             
