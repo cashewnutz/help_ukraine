@@ -34,7 +34,7 @@ function renderTransactions(data) {
             listItemText.classList.add("list-group-item-text");
             listItem.classList.add("list-group-item");
                 buyMap.total += parseFloat(swap.value);
-                listItemText.innerHTML = `Donated <a href="https://etherscan.io/tx/${swap.hash}">${swap.value} ETH</a> at ${new Date(swap.timestamp * 1000).toLocaleString()}`;
+                listItemText.innerHTML = `<div style='display:flex;justify-content:space-between;align-items:center;'><span>Donated ${swap.value} ETH at ${new Date(swap.timestamp * 1000).toLocaleString()}</span><a href="https://etherscan.io/tx/${swap.hash}"><i class='fa fa-external-link'></i></a> </div> `;
                 badge.innerHTML = `BUY`;
                 listItem.append(listItemText);
                 listItem.append(badge);
