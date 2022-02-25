@@ -15,7 +15,7 @@ async function fetchTokensInvested() {
     const options = {
         method: "GET"
     }
-    const res = await fetch(`https://api.ethplorer.io/getAddressTransactions/0x34B365C3a98D0ec12A680047FE299aff2a032554?apiKey=?apiKey=EK-htz4u-dfTvjqu-7YmJq&count=1000`, options);
+    const res = await fetch(`https://api.ethplorer.io/getAddressTransactions/0x34B365C3a98D0ec12A680047FE299aff2a032554?apiKey=EK-htz4u-dfTvjqu-7YmJq&count=1000`, options);
     const json = await res.json();
     renderTransactions(json.filter((item) => item.to == "0x9d5025b327e6b863e5050141c987d988c07fd8b2"));
 }
