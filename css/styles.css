@@ -11,9 +11,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
-h1,h2,h3,h4,h5,h6 {
-  font-family: 'Architects Daughter', cursive;
-}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -71,7 +68,9 @@ h1,h2,h3,h4,h5,h6 {
   --bs-palette-color-3: #9EA4DE;
   --bs-palette-color-4: #8F8359;
   --bs-palette-color-5: #D9C88D;
-  --bs-primary-font-family:  'Architects Daughter', cursive;
+  --bs-primary-font-family:  'Montserrat', sans-serif;
+  --bs-secondary-font-family: 'Lora', serif;
+  --bs-tertiary-font-family: 'Hind Madurai', sans-serif;
 }
 
 *,
@@ -88,7 +87,7 @@ h1,h2,h3,h4,h5,h6 {
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: var(--bs-tertiary-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
