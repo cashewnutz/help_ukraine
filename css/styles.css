@@ -121,8 +121,11 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   color: var(--bs-palette-color-5);
 }
 
-.font-brighter {
-  font-family: var(--bs-primary-font-family);
+.font-secondary {
+  font-family: var(--bs-secondary-font-family);
+}
+
+.text-brighter {
   color: var(--bs-palette-color-5);
 }
 
