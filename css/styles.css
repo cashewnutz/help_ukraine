@@ -4541,6 +4541,11 @@ textarea.form-control-lg {
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
+
+.card-transparent.card-header, .card-transparent.card, .card-transparent.card-body
+{
+  background-color: rgba(0, 0, 0, 0.03);
+}
 .card > hr {
   margin-right: 0;
   margin-left: 0;
@@ -5116,9 +5121,9 @@ textarea.form-control-lg {
   position: relative;
   display: block;
   padding: 0.5rem 1rem;
-  color: #212529;
+  color: #fff;
   text-decoration: none;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.03);
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
