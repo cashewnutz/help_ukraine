@@ -28,7 +28,7 @@ function renderTransactions(data) {
             var listItemText = document.createElement("p");
             var badge = document.createElement("span");
             badge.classList.add("badge");
-            badge.classList.add("bg-info");
+            badge.classList.add("bg-warning");
             badge.classList.add("badge-pill");
 
             listItemText.classList.add("list-group-item-text");
