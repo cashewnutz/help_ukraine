@@ -18,7 +18,7 @@ async function fetchTokensInvested() {
     const responseForOldWallet = await fetch(`https://api.ethplorer.io/getAddressTransactions/0x34B365C3a98D0ec12A680047FE299aff2a032554?apiKey=EK-htz4u-dfTvjqu-7YmJq&limit=1000`, options);
     const responseForNewWallet = await fetch(`https://api.ethplorer.io/getAddressTransactions/0x1E4B338b80e5d483fAdAb1Be2f7e524749F96398?apiKey=EK-htz4u-dfTvjqu-7YmJq&limit=1000`, options);
     const oldDonations = await responseForOldWallet.json();
-    const newDonations = responseForNewWallet.json();
+    const newDonations = await responseForNewWallet.json();
     const allDonations = [
         ...newDonations.filter((item) => item.to == "0x9d5025b327e6b863e5050141c987d988c07fd8b2"), 
         ...oldDonations.filter((item) => item.to == "0x9d5025b327e6b863e5050141c987d988c07fd8b2")
