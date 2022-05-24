@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="137.08253mm"
+   height="39.011639mm"
+   viewBox="0 0 137.08254 39.01164"
+   version="1.1"
+   id="svg34153"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="DAC-logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview34155"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.64052329"
+     inkscape:cx="266.96922"
+     inkscape:cy="151.43868"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs34150" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-14.265782,-116.7346)">
+    <path
+       id="path116224"
+       style="fill:#f4d35e;fill-opacity:1;stroke:none;stroke-width:3.23401;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke;stop-color:#000000"
+       d="m 40.930992,116.7346 v 0.003 H 37.314193 27.105228 18.045929 c -0.115768,0 -0.229246,0.001 -0.342597,0.008 v -0.008 h -3.43755 v 7.24252 24.5215 7.24362 h 3.43755 v -0.009 c 0.113223,0.004 0.227592,0.009 0.342597,0.009 h 9.059299 10.208965 3.616799 v 0.001 h 19.313299 c 7.944363,0 14.441116,-6.50164 14.441116,-14.44447 v -10.1255 c 0,-7.94267 -6.498279,-14.44108 -14.441116,-14.44108 z m 50.145273,0 c -7.942713,0 -14.439975,6.49811 -14.439975,14.44108 v 23.91402 h 6.542679 v -15.57828 h 25.921241 v 15.57828 h 6.54268 v -23.91402 c 0,-7.9444 -6.49802,-14.44108 -14.44111,-14.44108 z m 40.958625,0 c -7.94271,0 -14.43654,6.49841 -14.43654,14.44108 v 10.12549 c 0,7.94284 6.49218,14.44448 14.43654,14.44448 h 19.31343 v -6.54262 h -19.31343 c -4.43112,0 -7.89398,-3.46908 -7.89398,-7.90186 v -10.12549 c 0,-4.4325 3.46159,-7.89737 7.89398,-7.89737 h 19.31343 v -6.54371 z m -106.692391,4.19376 h 4.671688 v 2.98447 h 4.671688 v 4.67169 h -4.671688 v 2.97881 h -4.671688 v -2.97881 c -0.77272,0 -1.739065,0.87718 -1.739065,2.49987 v 0.31893 c 0,1.62274 0.968126,2.50321 1.739065,2.50321 h 4.671688 c 3.746816,0 6.413044,3.43557 6.413044,7.17149 v 0.32125 c 0,3.73575 -2.667628,7.16924 -6.413044,7.16924 v 2.98332 h -4.671688 v -2.98332 h -4.670543 v -4.67169 h 4.670543 v -2.98106 h 4.671688 v 2.98106 c 0.772721,0 1.742501,-0.87499 1.742501,-2.49755 v -0.32125 c 0,-1.62274 -0.971052,-2.49981 -1.742501,-2.49981 h -4.671688 c -3.746052,0 -6.411771,-3.43908 -6.411771,-7.17489 v -0.31893 c 0,-3.73588 2.666864,-7.17156 6.411771,-7.17156 z m 15.75184,2.34995 h 19.149952 c 4.432773,0 7.898565,3.46487 7.898565,7.89737 v 10.12549 c 0,4.43278 -3.467446,7.90186 -7.898565,7.90186 H 41.094339 v -0.70216 -24.5215 z m 49.981926,0 h 10.125515 c 4.4329,0 7.89843,3.46608 7.89843,7.89737 v 1.79314 H 83.178969 v -1.79314 c 0,-4.43273 3.46465,-7.89737 7.897296,-7.89737 z"
+       inkscape:export-filename="E:\Projekti\DAC\DAC Logo-yellow.png"
+       inkscape:export-xdpi="300.01599"
+       inkscape:export-ydpi="300.01599" />
+  </g>
+</svg>
