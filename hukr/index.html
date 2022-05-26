@@ -40,6 +40,11 @@
 
     gtag('config', 'G-4NN96549DZ');
   </script>
+  <script>
+      function hideAlert(){
+          document.getElementById('alert').style.display = 'none';
+      }
+  </script>
 </head>
 
 <body>
@@ -103,11 +108,19 @@
   </div>
 
   <section class="section section-item about-me" data-section="section1">
-    <div style="top: 20px;" id="alert" class="alert alert-primary alert-dissmissable fade show pt-1 position-relative">
-        <h4 class="alert-heading">HUKR Minting is live</h4>
-        <p class="text-primary">HUKR has prepared 2000 NFTs which are going to directly benefit Ukraine. <a href="https://hukr.org" class="btn btn-primary btn-sm">Mint yours today <i class="fa fa-chevron-right"></i></a></p>
-    </div>
+
     <div class="container">
+        <div id='alert' style="top: 20px;" id="alert" class="alert alert-primary alert-dissmissable fade show pt-1 position-relative">
+            <div class="d-flex align-items-center justify-content-between">
+                <div>
+                    <h4 class="alert-heading">HUKR Minting is live</h4>
+                    <p class="text-primary">HUKR has prepared 2000 NFTs which are going to directly benefit Ukraine. <a href="https://hukr.org" class="btn btn-primary btn-sm">Mint yours today <i class="fa fa-chevron-right"></i></a></p>
+                </div>    
+                <div>
+                    <button class='close btn-close' onclick='hideAlert()'>&times;</button>
+                </div>
+            </div>
+        </div>
       <div class="section-heading">
         <h2>About HUKR</h2>
         <div class="line-dec"></div>
